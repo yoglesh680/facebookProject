@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Friends</title>
+</head>
+
+<body>
+	<h1>Facebook Friends</h1>
+	<p>Welcome, <span th:text="${user.name}"></span>!</p>
+	<img th:src="${user.attributes['picture']['data']['url']}" alt="Profile Picture">
+</body>
+
+</html>
